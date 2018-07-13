@@ -43,16 +43,6 @@
         e.preventDefault();
 
         // This seems like a good place to do some stuff :)
-         this.focusedButton.tabIndex = -1;
-    this.focusedButton.removeAttribute('checked');
-
-    // Set the new button to tabindex 0 and focus it
-    this.focusedButton = this.buttons[idx];
-    this.focusedButton.tabIndex = 0;
-    this.focusedButton.focus();
-    this.focusedButton.setAttribute('checked', 'checked');
-
-        break;
       }
 
     }
