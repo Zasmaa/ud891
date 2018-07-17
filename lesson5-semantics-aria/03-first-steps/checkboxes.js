@@ -34,13 +34,13 @@
   };
 
   Checkbox.prototype.toggle = function() {
-    if (this.el.hasAttribute('checked')) {
+    if (this.el.hasAttribute('checked' 'true')) {
       this.el.removeAttribute('checked');
 
       // Hmm.
 
     } else {
-      this.el.setAttribute('checked', '');
+      this.el.setAttribute('checked', 'false');
 
       // Hmmmmm.
 
