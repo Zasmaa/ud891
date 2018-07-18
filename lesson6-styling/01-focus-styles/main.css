@@ -7,7 +7,7 @@ button:focus,
 a:hover,
 a:focus {
   outline: none;
-  color: inherit;
+  color: blue;
   text-decoration: none;
 }
 
@@ -22,7 +22,7 @@ a:focus {
 }
 
 .jumbotron .mdl-button {
-  background-color: #008b00;
+  background-color: #00818b;
   color: #FFFFFF;
 }
 
