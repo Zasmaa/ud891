@@ -31,7 +31,7 @@ main {
   height: 36px;
 }
 
-.disclosure-button .icon::after {
+.disclosure-button aria-ican = "true" {
   content: '▶';
 }
 
